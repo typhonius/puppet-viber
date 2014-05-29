@@ -1,4 +1,7 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+# Provides the viber class
+class viber {
+  package { 'Viber':
+    provider => 'appdmg',
+    source   => 'http://download.viber.com/desktop/mac/Viber.dmg'
+  }
 }
